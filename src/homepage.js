@@ -7,7 +7,7 @@ export function homePage() {
 
   year.textContent = "1582";
   heading.textContent = "La Tour d'Argent";
-  location.textContent = "Paris";
+  location.textContent = "PARIS";
 
   heading.classList.add("resturant-name");
   year.classList.add("home-text");
