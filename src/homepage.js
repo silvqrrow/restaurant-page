@@ -10,6 +10,8 @@ export function homePage() {
   location.textContent = "Paris";
 
   heading.classList.add("resturant-name");
+  year.classList.add("home-text");
+  location.classList.add("home-text");
 
   content.appendChild(year);
   content.appendChild(heading);

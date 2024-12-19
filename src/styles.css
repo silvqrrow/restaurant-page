@@ -60,7 +60,23 @@ hr {
   font-size: 4rem;
 }
 
-p {
+.home-text {
   font-size: 1.5rem;
   letter-spacing: 1rem;
+}
+
+.menu__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.item__title {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.item__description {
+  font-style: italic;
 }
