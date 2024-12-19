@@ -9,22 +9,16 @@ const about = document.querySelector("#about");
 homePage();
 
 home.addEventListener("click", () => {
-  while (content.firstChild) {
-    content.removeChild(content.lastChild);
-  }
+  content.replaceChildren();
   homePage();
 });
 
 menu.addEventListener("click", () => {
-  while (content.firstChild) {
-    content.removeChild(content.lastChild);
-  }
+  content.replaceChildren();
   menuPage();
 });
 
 about.addEventListener("click", () => {
-  while (content.firstChild) {
-    content.removeChild(content.lastChild);
-  }
+  content.replaceChildren();
   aboutPage();
 });
