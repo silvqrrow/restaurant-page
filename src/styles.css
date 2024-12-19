@@ -80,3 +80,41 @@ hr {
 .item__description {
   font-style: italic;
 }
+
+.about-text {
+  font-size: 2rem;
+  max-width: 45ch;
+}
+
+.about-text-one {
+  margin-bottom: 2rem;
+}
+
+.venue__container {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.venue__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ffffff;
+  width: 150px;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.venue__card:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+.venue__text {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  font-weight: 500;
+}
+
+.venue__card:hover .venue__text {
+  color: #000000;
+}
