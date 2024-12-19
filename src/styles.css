@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM PLEX SANS", sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-image: url("./images/paris.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+
+#content {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  border-bottom: 4px solid #e9cd71;
+  justify-content: center;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+hr {
+  width: 350px;
+  border: 2px solid #e9cd71;
+  margin: 1rem auto;
+}
+
+.resturant-name {
+  font-size: 4rem;
+}
+
+p {
+  font-size: 1.5rem;
+  letter-spacing: 1rem;
+}
